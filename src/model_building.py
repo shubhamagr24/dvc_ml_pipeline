@@ -121,7 +121,7 @@ def main():
     try:
         # params = load_params('params.yaml')['model_building']
         params = {
-            'n_estimators': 9,
+            'n_estimators': 22,
             'random_state': 2
         }
         train_data = load_data('./data/processed/train_tfidf.csv')
